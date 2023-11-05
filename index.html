@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+   <div class="container">
+    <header>
+      <h1>Library App</h1>
+    </header>
+    
+      <button class="btn">Add book +</button>
+   
+
+    <dialog>
+      <form>
+        <div>
+          <label for="title">Book Title</label>
+          <br>
+          <input type="text" id="title" name="title" autofocus/>
+        </div>
+        <div>
+          <label for="author">Book Author</label>
+          <br>
+          <input type="text" id="author" name="author" />
+        </div>
+        <div>
+          <label for="pages">Pages</label>
+          <br>
+          <input type="number" id="pages" name="pages"/>
+        </div>
+        
+        <div>
+        <input type="radio" value="read" id="read" name="readStatus"/>
+        <label for="scales">Read</label>
+        </div>
+        <div>
+         <input type="radio" value="not-read" id="not-read" name="readStatus"/>
+         <label for="not-read">not read</label>
+         </div>
+         <br>
+         <button type="submit" class='submit'>Submit</button>
+      </form>
+    </dialog>
+    <table>
+      <tr>
+        <th>Book Title</th>
+        <th>Author</th>
+        <th>Pages</th>
+        <th>Status</th>
+      </tr>
+    </table>
+    </div>
+  </body>
+</html>
